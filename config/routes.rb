@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :contacts
+  
   # create about_path for referencing the about page
   get '/about' => 'pages#about'
   
